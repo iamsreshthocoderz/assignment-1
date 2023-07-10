@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menus-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    
+
+}
+.menu>ol{
+    display: flex;
+    list-style: none;
+    margin-right: 25px;
+}
+.item{
+    
+    margin-right: 17px;
+}
