@@ -1,13 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 .menus-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: violet;
     color: white;
     padding: 10px;
+    align-items: center;
     
 
 }
@@ -15,8 +17,48 @@
     display: flex;
     list-style: none;
     margin-right: 25px;
+    
 }
 .item{
     
     margin-right: 17px;
 }
+/* banner part start */
+.banner-img{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    height: 100vh;
+    padding-left: 200px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    margin:30px 30px  0px 90px;
+
+    
+}
+.title{
+    font-size: 70px;
+    
+    
+}
+.paragraph{
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+    
+    
+}
+.btn{
+    border-radius: 8px;
+    border: 0;
+    background: #E55473;
+    width: 100px;
+    height: 44px;
+    color: white;
+    align-items: flex-start;
+
+}
+
+/* banner part end  */
