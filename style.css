@@ -49,7 +49,7 @@
 }
 
 .title {
-    font-size: 70px;
+    font-size: 60px;
 
 
 }
@@ -142,31 +142,62 @@
     line-height: 30px;
 }
 
-.instagram-img{
+.instagram-img {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    padding-top:30px ;
-    
-    
-   
+    padding-top: 30px;
+
+
+
 }
-.instagram-img-1 img{
+
+.instagram-img-1 img {
     width: 280px;
 }
 
-.Subscribe{
+.Subscribe {
     align-items: center;
     background-image: url("Flower Asset/Rectangle 9.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   margin: 0px 90px;
+    margin: 0px 80px;
+    border-radius: 8px;
 
 }
 
-.Subscribe-1{
+.Subscribe-1 {
     text-align: center;
     padding: 140px 0px;
+
+}
+
+.title-sub {
+    font-size: 50px;
+    padding: auto;
+}
+
+.paragraph-sub {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 20px;
+    padding: 16px 0px;
+}
+.from{
+    width: 700px;
+    height: 54px;
+    border-radius: 8px;
+}
+.btn-1{
+    border-radius: 8px;
+    border: 0;
+    background: #E55473;
+    width: 140px;
+    height: 55px;
+    color: white;
+    align-items: flex-start;
+    cursor: pointer;
+    margin: 0px 10px;
 }
